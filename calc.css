@@ -1,0 +1,41 @@
+body{
+	background-color:rgb(255, 223, 128);
+}
+
+#ans{
+	border: 5px solid black;
+	padding: 15px;
+	width: 250px;
+	}
+
+.first{
+	background-color:rgb(255, 194, 102);
+	font-size:25px;
+	border: 1px solid black;
+  border-collapse: collapse;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+}
+
+
+.special{
+	background-color:rgb(230, 184, 0);
+	font-size:25px;
+	border: 1px solid black;
+  border-collapse: collapse;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  color:
+}
+#equal{
+	
+	background-color:rgb(179, 179, 0);
+	font-size:25px;
+	border: 1px solid black;
+  border-collapse: collapse;
+  padding: 25px;
+  text-align: center;
+  position: relative;;
+	}

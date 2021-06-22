@@ -1,0 +1,41 @@
+<head>
+	<title>my calculator</title>
+	<link rel="stylesheet"href="/home/veer/Desktop/practice/calculator/calc.css">
+</head>
+<body>
+	<h2>Mini calc</h2>
+			<div class="container">
+        <form name="calculatorForm">
+            <div class="resultscreen">
+                <input type="text" name="evalresult"/>
+            </div>
+            <div class="buttons">
+			<div id ="first">
+				<input type="button" class="special" name="btndivision" value="/" onClick="valuecal(btndivision.value)"/>
+				<input type="button" class="first"   name="btn7" value="7" onClick="valuecal(btn7.value)"/>
+    			<input type="button" class="first"   name="btn8" value="8" onClick="valuecal(btn8.value)"/>
+    			<input type="button" class="first"   name="btn9" value="9" onClick="valuecal(btn9.value)"/>
+			</div>
+			<div>
+				<input type="button" class="special" name="btnmultiply" value="*" onClick="valuecal(btnmultiply.value)"/>
+				<input type="button" class="first"   name="btn4" value="4" onClick="valuecal(btn4.value)"/>
+    			<input type="button" class="first"   name="btn5" value="5" onClick="valuecal(btn5.value)"/>
+    			<input type="button" class="first"   name="btn6" value="6" onClick="valuecal(btn6.value)"/>
+			</div>
+			<div>
+				<input type="button" class="special" name="btnsubstract" value="-" onClick="valuecal(btnsubstract.value)"/>
+				<input type="button" class="first"   name="btn3" value="3" onClick="valuecal(btn3.value)"/>
+    			<input type="button" class="first"   name="btn2" value="2" onClick="valuecal(btn2.value)"/>
+    			<input type="button" class="first"   name="btn1" value="1" onClick="valuecal(btn1.value)"/>
+    			
+			</div>
+			<div>
+				<input type="button" class="special" name="btnaddition" value="+" onClick="valuecal(btnaddition.value)"/>
+				<input type="submit" class="first"   name="btnc" value="c" onSubmit="valuecal(btnc.value)"/>
+    			<input type="button" class="first"   name="btn0" value="0" onClick="valuecal(btn0.value)"/>
+    			<input type="button" id ="equal"   name="result" value="=" onClick="evalresult.value=eval(evalresult.value)"/>
+    		</div>
+    		</form>
+    		<script src="cal.js"></script>
+</body>
+
